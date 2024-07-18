@@ -9,7 +9,8 @@ function DNAtoRNA(dna) {
     //     rna =+ dna[i];
     // }
     rna += (dna[i] === 'T') ? 'U' : dna[i];
+    }
     return dna;
 }
 
-console.log(DNAtoRNA("TTTT"), "UUUU");
+console.log(DNAtoRNA("GCAT"));
